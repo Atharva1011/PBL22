@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.maindiv {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginbox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* align-items: center; */
+  height: 355px;
+  width: 400px;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+}
+.avtar {
+  position: absolute;
+  top: -50px;
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: aqua;
+  background: url("../images/861839\ \(1\).png");
+  background-size: cover;
+}
+
+.form {
+  position: absolute;
+  top: 73px;
+  /* background-color:black; */
+  height: 265px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formfield {
+  margin-top: 20px;
+  height: 30px;
+  width: 265px;
+  border-radius: 17px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+.formfield:placeholder-shown {
+  padding-left: 0px;
+}
+
+.btn {
+  margin-top: 28px;
+  height: 35px;
+  width: 265px;
+  border-radius: 17px;
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  font-size: 20px;
+  cursor: pointer;
+}
+.imageholder {
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  left: 1px;
+  bottom: 1px;
+  border-radius: 17px;
+  /* background-color: black; */
+}
+.image1 {
+  background: url("../images/Untitled\ design\ \(2\).png");
+  background-size: cover;
+}
+.image2 {
+  background: url("../images/lock.png");
+  background-size: cover;
+}
+.image3 {
+  background: url("../images/Google.png");
+  background-size: cover;
+}
+.image4 {
+  background: url("../images/twiiter.png");
+  background-size: cover;
+}
+.image5 {
+  background: url("../images/facebook.png");
+  background-size: cover;
+}
+
+.fitcontents {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  /* margin-top:20px; */
+}
+::placeholder {
+  padding-left: 38px;
+}
+a {
+  text-decoration: none;
+  color: #008fbd;
+}
+.imageholder1 {
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  border-radius: 17px;
+  /* background-color: black; */
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15px;
+}
+.text {
+  margin-bottom: 8px;
+}
+.login:hover {
+  background-color: rgb(95, 155, 238);
+  color: #fff;
+}
+.for_pass {
+  position: absolute;
+  bottom: 70px;
+}
